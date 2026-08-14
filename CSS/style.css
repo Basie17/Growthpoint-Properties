@@ -1,0 +1,207 @@
+/*General Website*/
+body{
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/*Headings*/
+h1{
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+
+h2{
+    color: #003E7E;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #003E7E;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+}
+
+/*Header*/
+header {
+    background-color: #003E7E;
+    text-align: center;
+    padding: 25px;
+}
+
+header p {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/*Navigation*/
+nav {
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #003E7E;
+    text-decoration: none;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+nav a:hover {
+    color: #4F9FD8;
+}
+
+/*Main Content*/
+main {
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+}
+
+main p {
+    font-size: 17px;
+}
+
+/*Images*/
+main img {
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/*Links / Buttons*/
+main a {
+    background-color: #4F9FD8;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+main a:hover {
+    background-color: #003E7E;
+}
+
+/*Lists*/
+li {
+    margin: 10px;
+    font-size: 17px;
+}
+
+/*Tables*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th {
+    background-color: #003E7E;
+    color: #FFFFFF;
+    padding: 15px;
+    font-family: Georgia, serif;
+}
+
+td {
+    background-color: #F4F4F4;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+}
+
+/*Forms*/
+form {
+    background-color: #F4F4F4;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 700px;
+}
+
+label {
+    color: #003E7E;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+input, select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 2px solid #4F9FD8;
+    outline: none;
+}
+
+/*Form Buttons*/
+button {
+    background-color: #003E7E;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4F9FD8;
+}
+
+/*Footer*/
+footer {
+    background-color: #003E7E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+/*Mobile Screen*/
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    main img {
+        height: auto;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
