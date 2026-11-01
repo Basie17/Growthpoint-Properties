@@ -100,8 +100,6 @@ if (enquiryForm) {
     //check the form when the visitor submits ir
     enquiryForm.addEventListener("submit", function(event) {
 
-        //prevent the form from submitting immediately
-        event.preventDefault();
 
         const name = document.getElementById("name").value.trim();
         const email = document.getElementById("email").value.trim();
@@ -116,22 +114,20 @@ if (enquiryForm) {
         const phoneDigits = phone.replace(/\D/g, "");
 
         if (name === "" || email === "" || phone === "" || property === "" || message === "") {
+            event.preventDefault();
             formMessage.textContent = "Please fill in all the fields.";
             formMessage.style.color = "red";
         }
         //check the phone number
         else if (phoneDigits.length < 10 || phoneDigits.length > 15) {
+            event.preventDefault();
             formMessage.textContent = "Please enter a correct phone number.";
             formMessage.style.color = "red";
         }
         else if (message.length < 10) {
+            event.preventDefault();
             formMessage.textContent = "Please enter a longer message.";
             formMessage.style.color = "red";
-        }
-        else {
-            alert("Thank you for your enquiry! We appreciate your interest in GrowthpointProperties.");
-            enquiryForm.reset();
-            formMessage.textContent = "";
         }
     });
 
