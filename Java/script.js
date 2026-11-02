@@ -100,7 +100,6 @@ if (enquiryForm) {
     //check the form when the visitor submits ir
     enquiryForm.addEventListener("submit", function(event) {
 
-
         const name = document.getElementById("name").value.trim();
         const email = document.getElementById("email").value.trim();
         const phone = document.getElementById("phone").value.trim();
