@@ -221,3 +221,37 @@ footer p {
         font-size: 12px;
     }
 }
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    padding: 30px 20px;
+    margin: 30px auto;
+    background-color: #D9EEF0;
+    border-radius: 8px;
+} 
+
+.social-media h2 {
+    color: #12304A;
+    margin-bottom: 10px;
+}
+
+.social-media p {
+    color: #263238;
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 18px;
+    background-color: #12304A;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-media a:hover {
+    background-color: #167D8D;
+}

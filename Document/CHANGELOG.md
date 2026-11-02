@@ -12,11 +12,12 @@ Improved the visual appearance and styling.
 Maintained external CSS.
 Improved the responsive layout for different screen sizes.
 
-Version 3.0 - Part 3: JavaScript, SEO and Functionality
+Version 3.0 - Part 3: JavaScript, SEO, Forms and Functionality
 Added an interactive image gallery with a lightbox effect.
 Added property search and filtering functionality.
 Added enquiry and contact form validation.
 Integrated FormSubmit to deliver form submissions to the designated email inbox.
+Added form submission confirmation and tested email delivery.
 Added an interactive Google Map to the Contact page.
 Improved page titles and meta descriptions for SEO.
 Reviewed heading structures and image alternative text.
