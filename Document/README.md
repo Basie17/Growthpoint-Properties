@@ -20,8 +20,8 @@ JavaScript - Interactive features, search functionality and form validation.
 The following improvements were made:
 Added an image gallery lightbox.
 Added a property search feature.
-Added form validation to the enquiry form and contact forrms.
-Added confirmation messages after successful form validation.
+Added form validation and confirmation messages to the enquiry form and contact forrms.
+Integrated FormSubmit to send enquiry and contact form submissions directly to the desgined email inbox.
 Improved website SEO using page titles and meta descriptions.
 Reviewed heading structures across all website pages.
 Added descriprive alternative text to images.
