@@ -141,21 +141,18 @@ const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
     contactForm.addEventListener("submit", function(event) {
-        event.preventDefault();
-
+        
         const contactName = document.getElementById("contactname").value.trim();
         const contactEmail = document.getElementById("contactemail").value.trim();
         const contactMessage = document.getElementById("contactmessage").value.trim();
 
         if (contactName === "" || contactEmail === "" || contactMessage === "") {
+            event.preventDefault();
             alert("Please complete all the fields.");
         }
         else if (contactMessage.length < 10) {
+            event.preventDefault();
             alert("Please enter a longer message.");
-        }
-        else {
-            alert("Thank you for contacting Growthpoint Properties!");
-            contactForm.reset();
         }
     });
 }
